@@ -1,0 +1,205 @@
+@media (max-width:700px){
+  .closeNavbar{
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    width: 100vw;
+    height: 102vh;
+    position: relative;
+    left: 0px;
+   transform: translate(-65vh);
+    border-radius: 0px;
+    position: fixed;
+  }
+  .openNavbar{
+    transform: translateY(1vh);
+  }
+  .navlist {
+    margin: 1px 0px 0px 63px;
+}
+.navlist li {
+  padding: 41px 0px;
+}
+.navlist li a {
+  font-size: 35px;
+}
+ .openbtn {
+   flex-direction:column;
+   top: 8px;
+    left: 8px;
+    width: 65px;
+    height: 65px;
+position: absolute;
+background: rgba(240, 227, 227, 0);
+box-shadow: none;
+ }
+ .openbtn .burger{
+   display: block;
+ }
+ .openbtn #burger1 #burger3{
+  transform: rotate(0deg); 
+ }
+ .closebtn{
+   flex-direction:row; position:fixed;
+ }
+ #arrow img{
+ display: none;
+ }
+ .openbtn .burger{
+  width: 70%;
+    height: 10%;
+    background-color: white;
+    margin: 6px 0px;
+    border: 1px solid #00000087;
+    box-shadow: 0px 0px 4px 0px black;
+    border-radius: 29px;
+    transition: all cubic-bezier(0.18, 0.89, 0.32, 1.28) 1s;
+}
+.openbtn #burger1{
+  width: 94%; margin-left: 5px;
+}
+.openbtn #burger2{
+  width: 76%; margin-left: -5px;
+}
+.openbtn #burger3{
+  width: 64%; margin-left: -13px;
+}
+
+ .closebtn #burger1{
+  transform: rotate(45deg);width: 90%;
+ }
+ 
+ .closebtn #burger3{
+  transform: rotate(-45deg);
+  width: 90%; margin-left: -50px;
+ }
+ .closebtn .crossbtn {
+  left:-1px; height:45px; display: none;
+}
+ .Main{
+   margin-bottom: 100px;
+  position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .banner{
+   left: 0px; top: 71px;
+   width: 247px;
+    height: 126px;
+    border-radius: 14px;
+ }
+#drop1{
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  top: -14px;
+    left: 16px;
+ }
+ #drop2{
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  top: 116px;
+    left: 200px;
+ }
+ #drop3{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: -22px;
+  left: 206px;
+ }
+ .css-typing{
+  top: 2px; left: 2px;
+ }
+ .css-typing p:nth-child(1) {
+  font-size: 18px;
+  position: relative;
+  left: 5px;
+  top: 2px;
+}
+.css-typing p:nth-child(2) {
+  position: relative;
+  top: -9px;
+  left: 29px;
+  font-size: 50px;
+}
+.css-typing p:nth-child(4) {
+  position: absolute;
+    top: 84px;
+  left: 0px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+ .Main img {
+  width: 130px;
+    position: absolute;
+    top: -36px;
+ }
+ .Aboutcontainer {
+  height: max-content;
+}
+ .Aboutme{
+   left: 7px;
+   flex-direction: column;
+   height: max-content;
+   width: 98vw;
+ }
+ .Aboutme h1{
+   font-size: 40px;
+ }
+ .Aboutfirst {
+  width: 92%;
+  height: 50%;
+  margin-top: 95px;
+}
+.Aboutfirst p {
+  font-size: 40px;
+}
+.Aboutsecond{
+  display: none;
+}
+.scrollto{
+  width: 60px;
+    height: 60px;
+    top: 89%;
+    left: 85%;
+}
+.scrollto img {
+  width: 45px;
+  height: 45px;
+}
+.skillContainer {
+  width: 100vw;
+  height: max-content;
+  left: 7px;
+}
+.skills{
+  margin-top: 88px;
+}
+.skills .card{
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0);
+  width: 240px;
+    height: 250px;
+}
+.skills .card:hover{
+  border-radius:30px;
+}
+.box .text{
+ color: #000; font-size:25px; font-family:'Gowun dodum';
+}
+.card:hover .text {
+  color: rgb(0, 0, 0);
+}
+svg{
+  box-shadow: 0px 0px 6px 5px black;
+    border-radius: 50%;
+}
+.services{
+  margin: 0px 12px 0px 0px;
+}
+.footer{
+  top: 3850px;
+}
+  }

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>Resume1</title>
+    <link rel="stylesheet" href="Resume.css">
+    <link rel="stylesheet" href="Resp-Resume.css">
+</head>
+
+<body>
+    <div id="scrollbar"></div>
+    <div id="back" class="background" onclick="generate()">
+        <div id="Navbar" class="closeNavbar">
+            <ul class="navlist" onclick="transparent()">
+                <li><a href="#back">HOME</a></li>
+                <li><a href="#About">ABOUT US</a></li>
+                <li><a href="#skill">SKIILS</a></li>
+                <li><a href="mailto:ahmedraz2533gmail.com" id="hirebtn" target="blank">CONTACT ME</a></li>
+            </ul>
+        </div>
+        <div id="arrow" class="openbtn" onclick="openNavbar()">
+            <div id="burger1" class="burger" ></div>
+            <div id="burger2" class="burger" ></div>
+            <div id="burger3" class="burger" ></div>
+            <img src="Photos/icons8-collapse-arrow-50.png" />
+        </div>
+        <div id="Home" class="Main">
+            <div class="banner">
+                <div id="drop1" class="banner"></div>
+                <div id="drop2" class="banner"></div>
+                <div id="drop3" class="banner"></div>
+                <div class="css-typing">
+                    <p class="hey">
+                        Hello, I'm</p>
+                    <p class="Im">Ahmed</p><br>
+                    <p class="front">Frontend web Devoleper</p>
+                    <!-- <p class="hey">
+                        Hey, This is Ahmed</p>
+                    <p class="Im">I'm</p><br>
+                    <p class="front">Front End Devoleper</p> -->
+                </div>
+            </div>
+            <img src="Photos/20210727_210227.png" alt="loading error..">
+
+        </div>
+    </div>
+    <main id="About" class="Aboutcontainer">
+<div class="Aboutme">
+    <h1>About Me</h1>
+    <div class="Aboutfirst">
+        <p>Hey I'm Ahmed Frontend web developer with approximately 1year+ experience and I will provide you a good service at low price and i hope you appreciate me after my work
+         </p>
+    </div>
+</div>
+</main>
+<div id="skill" class="Aboutme skillContainer">
+    <h3>Skills</h3>
+    <div class="skills">
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>90<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">Html</h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>85<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">CSS</h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>60<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">Javascript</h2>
+            </div>
+        </div>
+    </div>   
+</div>
+<div id="forscroll" class="scrollto" onclick="forScroll()">
+    <img src="Photos/double-icon.png" />
+</div>
+<div class="Aboutme myServices">
+    <h2>Services</h2>
+    <div class="services">
+   <div class="service">
+       <img src="Photos/html.png" alt="error loading...">
+       <h3 class="serviceText">HTML</h3>
+   </div>
+   <div class="service">
+    <img src="Photos/css.png" alt="error loading...">
+    <h3 class="serviceText">CSS</h3>
+</div>
+<div class="service">
+    <img src="Photos/javascript.png" alt="error loading...">
+    <h3 class="serviceText">JAVASCRIPT</h3>
+</div>
+</div>
+</div>
+<footer class="footer">
+<p class="text-footer">
+    Copyright &copy; 2021 - All Right reserved|By Ahmed
+</p>
+</footer>
+<script src="Resume.js"></script>
+</body>
+</html>
