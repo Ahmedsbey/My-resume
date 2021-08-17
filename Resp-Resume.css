@@ -6,12 +6,12 @@
     height: 102vh;
     position: relative;
     left: 0px;
-   transform: translate(-65vh);
+   transform: translate(-100%);
     border-radius: 0px;
     position: fixed;
   }
   .openNavbar{
-    transform: translateY(1vh);
+    transform: translateY(1%);
   }
   .navlist {
     margin: 1px 0px 0px 63px;
