@@ -20,7 +20,7 @@
   padding: 41px 0px;
 }
 .navlist li a {
-  font-size: 35px;
+  font-size: 26px;
 }
  .openbtn {
    flex-direction:column;
@@ -163,7 +163,7 @@ box-shadow: none;
   width: 60px;
     height: 60px;
     top: 89%;
-    left: 85%;
+    left: 81%;
 }
 .scrollto img {
   width: 45px;
