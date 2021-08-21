@@ -1,24 +1,3 @@
-// const container = document.querySelector('.background');
-// for (var i = 1; i <= 50; i++) {
-//     const blocks = document.createElement('div');
-//     blocks.classList.add('block');
-//     container.appendChild(blocks);
-// }
-// function generate() {
-//     anime({
-//         targets: '.block',
-//         translateX: function () {
-//             return anime.random(-700, 700)
-//         },
-//         translateY: function () {
-//             return anime.random(-700, 700)
-//         },
-//         scale: function () {
-//             return anime.random(1, 5)
-//         }
-//     })
-// }
-// generate()
 function openNavbar() {
     document.getElementById('Navbar').classList.toggle('openNavbar');
     document.getElementById('arrow').classList.toggle('closebtn');
@@ -31,7 +10,7 @@ function transparent() {
 function forScroll(){
     window.scrollTo(0,0);
 }
-
+// upper scroll button 
 window.onscroll = function(){
 var html =  document.documentElement;
 var scrolltop = html.scrollTop;
@@ -42,8 +21,10 @@ document.querySelector('#scrollbar').style.width = unit + "%";
 
 if(unit <= 51.17876468274297){
     document.querySelector('.scrollto').style.opacity = 0;
-}else {
+}else if(unit >= 51.17876468274297 && unit <=  99.99033585442847){
     document.querySelector('.scrollto').style.opacity = 1;
+}else if(unit >= 99.99033585442847) {
+    document.querySelector('.scrollto').style.opacity = 0;
 }
 }
 

@@ -76,7 +76,7 @@ box-shadow: none;
   left:-1px; height:45px; display: none;
 }
  .Main{
-   margin-bottom: 100px;
+   /* margin-bottom: 100px; */
   position: absolute;
     justify-content: center;
     align-items: center;
